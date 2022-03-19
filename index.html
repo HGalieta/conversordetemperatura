@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Conversor de Temperaturas - ID3</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <h1 class="page-title">
+    Conversor de Temperaturas
+  </h1>
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+  <label for="valor">Insira o valor numérico</label>
+  <input type="number" id="valor" size="2" /><br>
+  <div class=tempEntrada>
+    <label class="temp1" for="temp1">De:</label><br>
+    <input type="radio" name="entrada" value="gc">Graus Celcius<br>
+    <input type="radio" name="entrada" value="gf">Grau Fahrenheit<br>
+    <input type="radio" name="entrada" value="kv">Kelvin<br>
+  </div>
+  <div class=tempSaida>
+    <label class:"temp2" for="temp2">Para:</label><br>
+    <input type="radio" name="saida" value="gc">Graus Celcius<br>
+    <input type="radio" name="saida" value="gf">Grau Fahrenheit<br>
+    <input type="radio" name="saida" value="kv">Kelvin<br>
+  </div><br>
+  <button type="submit" onclick="Converter()">Converter</button>
+  <h2 id="valorConvertido"></h2>
+</div>
+<a href="https://alura.com.br/" target="_blank">
+  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

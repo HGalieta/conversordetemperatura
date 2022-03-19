@@ -1,0 +1,87 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background: linear-gradient(225deg, #b22222 25%, #00bfff 95%);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+input {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+label {
+  color: white;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.tempEntrada,
+.tempSaida {
+  color: #ffffff;
+  text-align: left;
+  display: inline-block;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 10px;
+}
+
+.tempEntrada {
+  background-color: rgba(255, 80, 80, 0.2);
+  border-color: rgba(255, 0, 0, 0.2);
+  backdrop-filter: blur(8px);
+}
+
+.tempSaida {
+  background-color: rgba(0, 153, 255, 0.2);
+  border-color: rgba(0, 102, 204, 0.2);
+  backdrop-filter: blur(8px);
+}
+
+.temp1,
+.temp2 {
+  text-align: center;
+  font-weight: bold;
+}
